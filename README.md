@@ -9,9 +9,9 @@ So if you use my config files, make sure you set the speed of your BN-220 to 960
 My hardware consists of:
 FRSKY Taranis EU X9D ACCST Firmware:OpenTX-x9d+ version 2.3.9-otx (60e1edc1) Date 2020-06-14  EEPR :219
 Receiver FRSKY EU S6r SPORT
-Arduino NANO clone with mini USB connector and CH340 interface. This works always fine for me. No FTDI because in the past a FTDI clone got bricked by Microsoft and the manufacturer of the original FTDI adapter causing tremendous problems in hardware all over the world and also on my hardware. SO I stay far away from it.
-MS5611 sensor connected to SPI as adviced. I did not change pin numbers etc
-Breitan BN-220 gps connected as adviced. I did not changed pin numbers
+Arduino NANO clone with mini USB connector and CH340 interface and ch340 serial port to USB adapter. This works always fine for me. No FTDI adapter because in the past my FTDI clone got bricked by Microsoft and the manufacturer of the original FTDI adapter causing tremendous problems in some hardware all over the world and also on my hardware. So I stay far away from it.
+MS5611 sensor connected to SPI as adviced. I did not change pin numbers in the original sketch
+Breitan BN-220 gps connected as adviced. I did not changed pin numbers in the original sketch
 
 Software apps: U-center version 22.07
 Arduino IDE latest version
@@ -23,6 +23,7 @@ I will make a youtube video asap how to do that
 -Buy a gps that has been proven to work with this sketch. Some gps you cannot change settings.
 -Be sure that when you save settings in U-center, the settings are stored on your gps. Lots of time the settings are not stored. So retry and be sure
 -Disconnect the GPS (I just disconnect the 5v wire) when you upload a new sketch to your Arduino NANO, otherwise it will not upload.
+-the sketch only supports U-BLOX protocol. So NMEA settings are not needed in the config of your gps. Remove them.
 
-So if everyting works, you get your vario and GPS coordinates on your Taranis. It works great.
+So if everything works, you get your vario and GPS coordinates on your Taranis. It works great.
 I will put the links of the hardware I bought for this project in the description of the YT video.
