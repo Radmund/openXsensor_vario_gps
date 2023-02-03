@@ -13,8 +13,7 @@ Arduino NANO clone with mini USB connector and CH340 interface and ch340 serial 
 MS5611 sensor connected to SPI as adviced. I did not change pin numbers in the original sketch
 Breitan BN-220 gps connected as adviced. I did not changed pin numbers in the original sketch
 
-Software apps: U-center version 22.07
-Arduino IDE latest version
+Software apps: U-center version 22.07 and Arduino IDE latest version
 
 Tips to consider
 -The big trick is to change serial port speed of your GPS to 9600 bps in U-center and only use U-BLOX protocol as output. Default settings of the BN-220 are set to be 57600 bps, so you must 
