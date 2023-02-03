@@ -1,5 +1,5 @@
 # openXsensor_vario_gps
-Config files openXsensor for project Arduino NANO (CH340), MS5611 sensor and Breitan BN-220 GPS
+Config files and tips for openXsensor for project FRSKY Taranis X9D+ ACCST LBT, Arduino NANO (CH340), MS5611 sensor and Breitan BN-220 GPS
 
 After struggling with Breitan BN-220 gps settings, finally I got the gps data shown on my Taranis X9D with the standard lua scripts.
 I will post the 3 config files, so others can benefit from it.
