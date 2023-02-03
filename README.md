@@ -1,7 +1,7 @@
 # openXsensor_vario_gps
 Config files openXsensor for project Arduino NANO (CH340), MS5611 sensor and Breitan BN-220 GPS
 
-After struggling with Breitan BN-220 gps settings, finally I got the gps data shown on my Taranis X9D with the standard lua scripts
+After struggling with Breitan BN-220 gps settings, finally I got the gps data shown on my Taranis X9D with the standard lua scripts.
 I will post the 3 config files, so others can benefit from it.
 In these config files you can see that the BN-220 gps serial port is working at 9600 bps.
 The problem is that when you buy a whatever GPS and try to use the openXsensor, you have greater change it doesnt work because the settings in the the sketch and the settings in the gps do not match.
