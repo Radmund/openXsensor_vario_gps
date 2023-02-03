@@ -20,13 +20,17 @@ My hardware consists of:
 
 Software apps: U-center version 22.07 and Arduino IDE latest version
 
-Tips to consider:
+Important tips:
 
 -The big trick is to change serial port speed of your GPS to 9600 bps in U-center and only use UBX protocol as output. Default settings of the BN-220 are set to be 57600 bps, so you must always check the speed with U-Center.
 
-I will make a youtube video asap how to do that.
+-Consider buying GPS and vario Sensor that all work on same volt, so you dont have to struggle with different voltages like 3.3 for your GPS and 5 for your vario sensor.
 
--Very important too: I read that the GPS only works if the vario works. If not then the program stops. So first you be sure the vario works fine. Then go on connecting and configuring the GPS.
+-Use a breadboard to prototype your setup. When everything works put it together for your plane.
+
+-Keep in mind when you make the final assembly of your hardware that you must be able to disconnect the GPS. Otherwise uploading does not work. Disconnecting the 5volt wire is enough.
+
+-Very important: I read that the GPS only works if the vario works. If not then the program stops. So first you be sure the vario works fine. Then go on connecting and configuring the GPS.
 
 -Buy a gps that has been proven to work with this sketch. Some gps you cannot change settings.
 
@@ -34,7 +38,9 @@ I will make a youtube video asap how to do that.
 
 -Disconnect the GPS (I just disconnect the 5v wire) when you upload a new sketch to your Arduino NANO, otherwise it will not upload.
 
--the sketch only supports U-BLOX protocol. So NMEA settings are not needed in the config of your gps. Remove them.
+-The sketch only supports UBX (binary) protocol. So NMEA settings are not needed in the config of your gps. Remove them.
+
+-
 
 So if everything works, you get your vario and GPS coordinates on your Taranis. It works great.
 I will put the links of the hardware I bought for this project in the description of the YT video.
