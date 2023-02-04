@@ -17,7 +17,8 @@ It consists of:
 
 -Buying the right hardware
 
--Know how your Taranis works with LUA scripts/upgrades etc.
+-Know how your Taranis works with LUA scripts/upgrades etc. 
+For the used LUA scripts goto github account moschotto/OpenTX_GPS_Telemetry
 
 -Solder techniques
 
