@@ -17,8 +17,7 @@ It consists of:
 
 -Buying the right hardware
 
--Know how your Taranis works with LUA scripts/upgrades etc. 
-For the used LUA scripts goto github account moschotto/OpenTX_GPS_Telemetry
+-Know how to configure your Taranis with LUA scripts/upgrades/menu's etc. 
 
 -Solder techniques
 
@@ -34,11 +33,12 @@ For the used LUA scripts goto github account moschotto/OpenTX_GPS_Telemetry
 
 -Like to learn things
 
--Be patient, sleep over it and dream about it when you are stuck. It helps.
+-Be patient, sleep over it when you are stuck in the project or learning. Your brains will make new connections when you are sleeping. Its no joke.
 
 So this project is not for beginners, but with perseverence you can make it to the end.
 
 My hardware consists of:
+
 -FRSKY Taranis EU (aka LBT) X9D ACCST Firmware:OpenTX-x9d+ version 2.3.9-otx (60e1edc1) Date 2020-06-14  EEPR :219
 
 -Receiver FRSKY EU (aka LBT) S6r SPORT
@@ -49,9 +49,15 @@ My hardware consists of:
 
 -Breitan BN-220 gps connected as adviced. I did not changed pin numbers in the original sketch
 
-Software apps: U-center version 22.07 and Arduino IDE latest version
+Software apps:
 
-Important tips:
+- U-center version 22.07 
+
+- Arduino IDE latest version
+
+Very important tips:
+
+-For the used LUA telemetry scripts goto github account moschotto/OpenTX_GPS_Telemetry
 
 -Make sure that your FRSKY Taranis radio is a least on OpenTX 2.3.x
 
